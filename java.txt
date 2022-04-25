@@ -1,0 +1,17 @@
+public class HelloWorld {
+
+    String str = "Hello World";
+    void m1()
+    {
+        System.out.println("Method m1");
+        System.out.println(str);
+      
+    }
+
+    public static void main(String[] args) {
+        HelloWorld h1 =new HelloWorld();
+        h1.m1();
+
+
+    }
+}
